@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Operadores Lógicos</title>
+</head>
+<body>
+    
+
+<script>
+    // AND && , OR|| , NOT    
+
+    //exemplo com AND
+    var sexo = 'M', idade = 30;
+    if (sexo === 'M' && idade >= 18) {
+        console.log('ok')
+    } 
+
+    //exemplo com OR
+   if (sexo === 'M' || idade >= 18) {
+        console.log('ok')
+    } 
+
+    //exemplo de NOT 
+    if (sexo !== 'M') {
+        console.log('ok')
+    } 
+
+    //exemplo de armazenamendo de condição 
+
+  var masculino;
+    if (sexo === 'M' ) {
+        masculino = true;
+    } else{
+        masculino = false;
+    }
+
+
+    //exemplo 02 de armazenamento de condição 
+
+    var masculino = (sexo === 'M');
+     
+    console.log(masculino);
+</script>
+</body>
+</html>
