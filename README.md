@@ -1,13 +1,13 @@
 # introducaoJs
 Nesse repositório demostro os primeiros passos com JavaScrpit trazendo alguns exemplos de forma bem simples e introdutória.
  
-* Console.log
+*Console.log
 
 *Variáveis e Dados
  
-* Operações Matemática
+*Operações Matemática
 
-* Funções
+*Funções
 
 *Condicionais
 
